@@ -8,8 +8,6 @@
 
     <!-- Título -->
 
-    <!-- Subtítulo -->
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -22,6 +20,8 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Subtítulo -->
 
     <TextView
         android:id="@+id/textView3"
@@ -74,13 +74,9 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <!-- Imagem -->
-
-            <!-- RadioButton -->
-
         </LinearLayout>
 
-        <!-- Outros RadioButtons -->
+        <!-- RadioButton -->
         <RadioButton
             android:id="@+id/radioButtonTrail"
             android:layout_width="wrap_content"
@@ -111,6 +107,8 @@
             android:layout_height="wrap_content"
             android:text="Outro" />
 
+        <!-- Imagem -->
+
         <ImageView
             android:id="@+id/imageViewTerrain"
             android:layout_width="50dp"
@@ -122,8 +120,6 @@
 
     <!-- Switch para indicar se foi uma corrida oficial -->
 
-    <!-- Botão para salvar as informações -->
-
     <Switch
         android:id="@+id/switchOfficialRun"
         android:layout_width="wrap_content"
@@ -134,7 +130,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroupTerrain" />
 
-    <!-- Botão para limpar as informações -->
+    <!-- Botão para salvar as informações -->
 
     <Button
         android:id="@+id/btnSave"
@@ -149,6 +145,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/switchOfficialRun"
         app:layout_constraintVertical_bias="0.165" />
+
+    <!-- Botão para limpar as informações -->
 
     <Button
         android:id="@+id/btnClear"
